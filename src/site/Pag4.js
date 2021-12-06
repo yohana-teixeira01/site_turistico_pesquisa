@@ -36,6 +36,7 @@ const Pag4 = () => {
                     <br/>
                     <Link to="/Pag3"><button> Anterior </button></Link>
                     <Link to="/"><button  onClick={limpar}>Nova Pesquisa</button></Link>
+                    <Link to="/Pag5"><button  onClick={limpar}>Result Pesquisa API</button></Link>
             </fieldset>
         </div>   
     );

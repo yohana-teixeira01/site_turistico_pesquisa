@@ -11,9 +11,10 @@ const Pag1 = () =>{
   const[nome, setNome] = useState(NomeStore);
   const[texto, setTexto] = useState(PraiasStore);
 
-  const salvar = () => {
+  const salvar = () => {  
     setNomeStore(nome);
     setPraiasStore(texto);
+    
   }
 
     return (
