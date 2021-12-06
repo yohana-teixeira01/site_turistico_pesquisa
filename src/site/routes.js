@@ -5,7 +5,7 @@ import Pag1 from "./Pag1";
 import Pag2 from "./Pag2";
 import Pag3 from "./Pag3";
 import Pag4 from "./Pag4";
-
+import Pag5 from "./Pag5";
 
 const Routes = () => {
    return(
@@ -14,7 +14,7 @@ const Routes = () => {
            <Route component = { Pag2 }  path="/Pag2" />
            <Route component = { Pag3 }  path="/Pag3" />
            <Route component = { Pag4 }  path="/Pag4" />
-       
+           <Route component = { Pag5 }  path="/Pag5" />
        </BrowserRouter>
    );
 }
