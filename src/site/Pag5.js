@@ -1,6 +1,7 @@
 import axios from 'axios';
 import {useState} from 'react';
 import {useQuery} from 'react-query';
+import React from 'react';
 
 
 
@@ -22,7 +23,7 @@ import {useQuery} from 'react-query';
             
         }
      
-        const {data, isLoading} = useQuery('dataname', AxiosFunction )
+        const {data} = useQuery('dataname', AxiosFunction )
         console.log(data);
   
     return (
@@ -30,7 +31,7 @@ import {useQuery} from 'react-query';
             <h2>Resultados da Pesquisa com API</h2>
             <fieldset>
                 <p>
-                    Nome Completo:{data} <br/><br/>
+                    Nome Completo:{data, resultados} <br/><br/>
                     Você conhece as praias de pernambuco?<br/>
                     Você conheceu alguma praia Pernambucana?<br/><br/>
                     Qual?<br/><br/>

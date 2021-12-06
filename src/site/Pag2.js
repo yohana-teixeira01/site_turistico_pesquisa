@@ -13,6 +13,9 @@ const Pag2 = () => {
    function salvar(){
     setRadioStore(radio);
     setRadio2Store(radio2);
+   
+
+
    }
 
     return (

@@ -17,6 +17,7 @@ const Pag3 = () => {
 
     function salvar2(){
         setLugarStore(Lugar);
+        
       }
 
     console.log(Lugar)

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useStoreState, useStoreActions } from 'easy-peasy';
+import React from "react";
 
 const Pag4 = () => {
     const NomeStore = useStoreState(state => state.Nome);
